@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="瓦楞纸箱插画">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef6e8"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7b876"/>
+      <stop offset="1" stop-color="#c99350"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c08b46"/>
+      <stop offset="1" stop-color="#a06f33"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#bg)"/>
+  <circle cx="706" cy="120" r="140" fill="#dff1dc" opacity=".9"/>
+  <circle cx="86" cy="440" r="160" fill="#e7f3df" opacity=".85"/>
+  <circle cx="640" cy="452" r="90" fill="#f3faf0"/>
+
+  <g transform="translate(88,120) rotate(-20) scale(1.3)" opacity=".9">
+    <path d="M0,-18 C13,-9 14,6 0,18 C-14,6 -13,-9 0,-18 Z" fill="#a6d69b"/>
+    <path d="M0,-12 L0,10" stroke="#79bb72" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(720,330) rotate(14) scale(1.4)">
+    <path d="M0,-18 C13,-9 14,6 0,18 C-14,6 -13,-9 0,-18 Z" fill="#b9e2ac"/>
+    <path d="M0,-12 L0,10" stroke="#84c57a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <circle cx="126" cy="244" r="4.5" fill="#8cc87f"/>
+  <circle cx="676" cy="244" r="3.5" fill="#8cc87f"/>
+
+  <!-- 地面阴影 -->
+  <ellipse cx="460" cy="482" rx="215" ry="24" fill="#263b14" opacity=".12" filter="url(#soft)"/>
+  <ellipse cx="452" cy="480" rx="140" ry="12" fill="#263b14" opacity=".07"/>
+
+  <!-- 纸箱主体 -->
+  <polygon points="560,300 560,470 638,418 638,248" fill="url(#side)" stroke="#8a5f2a" stroke-width="2.5" stroke-linejoin="round" opacity=".95"/>
+  <polygon points="300,300 560,300 638,248 378,248" fill="#f2cf94" stroke="#8a5f2a" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="300" y="300" width="260" height="170" fill="url(#front)" stroke="#8a5f2a" stroke-width="2.5"/>
+
+  <!-- 顶面翻盖细节 -->
+  <line x1="430" y1="300" x2="508" y2="248" stroke="#b98a4a" stroke-width="1.5" opacity=".55"/>
+
+
+  <!-- 顶面胶带 -->
+  <polygon points="421.7,287.5 499.7,235.5 516.3,260.5 438.3,312.5" fill="#fdf6e8" stroke="#b08a56" stroke-width="2"/>
+  <line x1="428" y1="293" x2="506" y2="241" stroke="#e9d9b4" stroke-width="2.5" opacity=".8"/>
+
+  <!-- 正面瓦楞纹理 -->
+  <g stroke="#7a5226" stroke-width="2" opacity=".10">
+    <line x1="322" y1="308" x2="322" y2="462"/>
+    <line x1="354" y1="308" x2="354" y2="462"/>
+    <line x1="384" y1="308" x2="384" y2="462"/>
+    <line x1="476" y1="308" x2="476" y2="462"/>
+    <line x1="506" y1="308" x2="506" y2="462"/>
+    <line x1="536" y1="308" x2="536" y2="462"/>
+  </g>
+  <line x1="300" y1="342" x2="560" y2="342" stroke="#7a5226" stroke-width="1.5" opacity=".14"/>
+
+  <!-- 正面环保徽章 -->
+  <circle cx="430" cy="385" r="56" fill="#ffffff"/>
+  <circle cx="430" cy="385" r="50" fill="none" stroke="#4c9150" stroke-width="6"/>
+  <g transform="translate(430,385)">
+    <path d="M0,-14 C11,-7 12,5 0,14 C-12,5 -11,-7 0,-14 Z" fill="#3f8f4d"/>
+    <path d="M0,-9 L0,8" stroke="#a9dfae" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8,5 a30,30 0 0 1 15,2" fill="none" stroke="#4c9150" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(486,352) rotate(24) scale(.9)">
+    <path d="M0,-11 C8,-5 8,3 0,11 C-8,3 -8,-5 0,-11 Z" fill="#5fa864"/>
+  </g>
+  <g transform="translate(492,364) rotate(-10) scale(.7)">
+    <path d="M0,-11 C8,-5 8,3 0,11 C-8,3 -8,-5 0,-11 Z" fill="#8cc491"/>
+  </g>
+
+  <!-- 高光 -->
+  <polygon points="312,308 322,306 322,318 312,320" fill="#ffffff" opacity=".25"/>
+  <polygon points="552,308 562,306 562,318 552,320" fill="#8a5f2a" opacity=".12"/>
+  <path d="M312,298 L308,300 M330,302 L330,306" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+</svg>
