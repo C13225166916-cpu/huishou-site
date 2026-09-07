@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="铝制易拉罐插画">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2f4ea"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#87908e"/>
+      <stop offset=".12" stop-color="#ccd3d1"/>
+      <stop offset=".22" stop-color="#f4f7f6"/>
+      <stop offset=".34" stop-color="#dfe5e3"/>
+      <stop offset=".52" stop-color="#c0c9c7"/>
+      <stop offset=".75" stop-color="#adb6b4"/>
+      <stop offset="1" stop-color="#87908e"/>
+    </linearGradient>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#b9c4c1"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f1a24"/>
+      <stop offset=".15" stop-color="#f15b62"/>
+      <stop offset=".28" stop-color="#ff9d8f"/>
+      <stop offset=".45" stop-color="#e63946"/>
+      <stop offset=".72" stop-color="#bb2833"/>
+      <stop offset="1" stop-color="#8f1a24"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#bg)"/>
+  <circle cx="92" cy="96" r="150" fill="#e2f5ea" opacity=".85"/>
+  <circle cx="716" cy="462" r="168" fill="#d9f1e4" opacity=".9"/>
+  <circle cx="668" cy="104" r="84" fill="#f2faf5"/>
+
+  <g transform="translate(84,424) rotate(16) scale(1.5)" opacity=".9">
+    <path d="M0,-18 C13,-9 14,6 0,18 C-14,6 -13,-9 0,-18 Z" fill="#9bddb6"/>
+    <path d="M0,-12 L0,10" stroke="#6fbd93" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(712,62) rotate(-28) scale(1.25)">
+    <path d="M0,-18 C13,-9 14,6 0,18 C-14,6 -13,-9 0,-18 Z" fill="#b9e6cc"/>
+    <path d="M0,-12 L0,10" stroke="#7cc79f" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <circle cx="700" cy="290" r="5" fill="#7ccfa0"/>
+  <circle cx="96" cy="300" r="4" fill="#7ccfa0"/>
+
+  <!-- 地面阴影 -->
+  <ellipse cx="400" cy="482" rx="230" ry="26" fill="#0b3d24" opacity=".12" filter="url(#soft)"/>
+  <ellipse cx="400" cy="482" rx="150" ry="14" fill="#0b3d24" opacity=".08"/>
+
+  <!-- 罐身 -->
+  <path d="M250,170 L250,432 Q250,464 284,464 L516,464 Q550,464 550,432 L550,170 Z" fill="url(#metal)"/>
+
+  <!-- 罐体高光与暗部细节 -->
+  <rect x="290" y="214" width="18" height="30" rx="9" fill="#ffffff" opacity=".55"/>
+  <rect x="494" y="418" width="16" height="26" rx="8" fill="#ffffff" opacity=".35"/>
+  <path d="M252,172 H548" stroke="#66706e" stroke-width="2" opacity=".3"/>
+  <path d="M252,460 Q400,476 548,460" fill="none" stroke="#6b7573" stroke-width="2" opacity=".3"/>
+
+  <!-- 红色标签 -->
+  <rect x="250" y="248" width="300" height="164" fill="url(#band)"/>
+  <rect x="250" y="244" width="300" height="6" fill="#7c121b"/>
+  <rect x="250" y="252" width="300" height="3" fill="#ffffff" opacity=".35"/>
+  <rect x="250" y="404" width="300" height="3" fill="#ffffff" opacity=".25"/>
+  <rect x="250" y="407" width="300" height="7" fill="#7c121b"/>
+
+  <!-- 标签上的环保徽章 -->
+  <circle cx="400" cy="330" r="66" fill="#ffffff"/>
+  <circle cx="400" cy="330" r="60" fill="none" stroke="#3fae6d" stroke-width="6"/>
+  <g transform="translate(400,330)">
+    <path d="M0,-15 C11,-7 12,5 0,15 C-12,5 -11,-7 0,-15 Z" fill="#177c43"/>
+    <path d="M0,-10 L0,9" stroke="#a5ddbc" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8,6 a34,34 0 0 1 16,2" fill="none" stroke="#3fae6d" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0,-15 C-11,-7 -12,5 0,15 C12,5 11,-7 0,-15 Z" fill="none" stroke="#177c43" stroke-width="2" opacity=".3"/>
+  </g>
+
+  <!-- 顶盖 -->
+  <ellipse cx="400" cy="170" rx="150" ry="36" fill="url(#topGrad)"/>
+  <ellipse cx="400" cy="170" rx="150" ry="36" fill="none" stroke="#7f8b89" stroke-width="3" opacity=".55"/>
+  <ellipse cx="400" cy="170" rx="120" ry="28" fill="#eef4f2"/>
+  <ellipse cx="400" cy="170" rx="120" ry="28" fill="none" stroke="#c3ccca" stroke-width="3"/>
+  <ellipse cx="376" cy="152" rx="44" ry="10" fill="#ffffff" opacity=".6"/>
+  <ellipse cx="400" cy="168" rx="40" ry="11" fill="none" stroke="#93a29f" stroke-width="7"/>
+  <circle cx="400" cy="168" r="8" fill="#93a29f"/>
+  <circle cx="398" cy="166" r="2.6" fill="#ffffff" opacity=".9"/>
+
+  <!-- 顶部光点装饰 -->
+  <path d="M648,196 l0,12 M642,202 l12,0" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="132" cy="150" r="4" fill="#ffffff" opacity=".9"/>
+  <circle cx="118" cy="140" r="2.4" fill="#ffffff" opacity=".7"/>
+</svg>
