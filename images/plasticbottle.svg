@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="塑料饮料瓶插画">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f4ea"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74c298"/>
+      <stop offset=".13" stop-color="#c7eeda"/>
+      <stop offset=".3" stop-color="#f3fcf7"/>
+      <stop offset=".52" stop-color="#d9f3e6"/>
+      <stop offset=".74" stop-color="#aee2c6"/>
+      <stop offset=".88" stop-color="#8bd0ab"/>
+      <stop offset="1" stop-color="#66b489"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fe0ae"/>
+      <stop offset="1" stop-color="#158a49"/>
+    </linearGradient>
+    <linearGradient id="lip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#37b86b"/>
+      <stop offset="1" stop-color="#1c9a55"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="bottle">
+      <path d="M400,168 C424,168 434,177 434,188 L434,218 C434,258 476,262 494,314 C502,338 504,354 504,374 L504,462 C504,478 494,488 484,490 L316,490 C306,488 296,478 296,462 L296,374 C296,354 298,338 306,314 C324,262 366,258 366,218 L366,188 C366,177 376,168 400,168 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#bg)"/>
+  <circle cx="700" cy="104" r="150" fill="#dff3e7" opacity=".9"/>
+  <circle cx="92" cy="458" r="160" fill="#d8f1e2" opacity=".85"/>
+  <circle cx="664" cy="452" r="88" fill="#f2fbf6"/>
+
+  <g transform="translate(84,132) rotate(-22) scale(1.4)" opacity=".9">
+    <path d="M0,-18 C13,-9 14,6 0,18 C-14,6 -13,-9 0,-18 Z" fill="#97d8b0"/>
+    <path d="M0,-12 L0,10" stroke="#69bb8f" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(720,314) rotate(18) scale(1.35)">
+    <path d="M0,-18 C13,-9 14,6 0,18 C-14,6 -13,-9 0,-18 Z" fill="#b1e3c6"/>
+    <path d="M0,-12 L0,10" stroke="#7cc79f" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <circle cx="118" cy="276" r="4.5" fill="#79c89b"/>
+  <circle cx="690" cy="252" r="3.5" fill="#79c89b"/>
+
+  <!-- 地面阴影 -->
+  <ellipse cx="402" cy="508" rx="220" ry="24" fill="#0b3d24" opacity=".12" filter="url(#soft)"/>
+  <ellipse cx="402" cy="508" rx="150" ry="13" fill="#0b3d24" opacity=".07"/>
+
+  <!-- 瓶身剪影 -->
+  <path d="M400,168 C424,168 434,177 434,188 L434,218 C434,258 476,262 494,314 C502,338 504,354 504,374 L504,462 C504,478 494,488 484,490 L316,490 C306,488 296,478 296,462 L296,374 C296,354 298,338 306,314 C324,262 366,258 366,218 L366,188 C366,177 376,168 400,168 Z" fill="url(#body)"/>
+
+  <!-- 瓶身内部细节（裁剪范围） -->
+  <g clip-path="url(#bottle)">
+    <rect x="300" y="180" width="18" height="310" fill="#14683a" opacity=".06"/>
+    <rect x="486" y="180" width="16" height="310" fill="#14683a" opacity=".09"/>
+    <rect x="310" y="216" width="20" height="252" rx="10" fill="#ffffff" opacity=".5"/>
+    <rect x="352" y="240" width="10" height="228" rx="5" fill="#ffffff" opacity=".32"/>
+    <ellipse cx="400" cy="482" rx="88" ry="12" fill="#14683a" opacity=".07"/>
+
+    <!-- 瓶身标签 -->
+    <rect x="250" y="346" width="300" height="84" fill="#eefaf3"/>
+    <rect x="250" y="344" width="300" height="4" fill="#2f9e5f" opacity=".85"/>
+    <rect x="250" y="426" width="300" height="4" fill="#2f9e5f" opacity=".85"/>
+    <rect x="250" y="356" width="300" height="3" fill="#ffffff" opacity=".5"/>
+
+    <!-- 标签上的环保徽章 -->
+    <circle cx="400" cy="388" r="38" fill="#ffffff"/>
+    <circle cx="400" cy="388" r="33" fill="none" stroke="#22a55a" stroke-width="4.5"/>
+    <g transform="translate(400,388)">
+      <path d="M0,-11 C8,-5 9,4 0,11 C-9,4 -8,-5 0,-11 Z" fill="#1f9555"/>
+      <path d="M0,-7 L0,6" stroke="#a7e0bf" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <path d="M448,430 a34,20 0 0 0 60,0" fill="none" stroke="#2f9e5f" stroke-width="2.5" opacity=".35"/>
+  </g>
+
+  <!-- 底部瓶口线 -->
+
+
+  <!-- 瓶口卡环 -->
+  <rect x="360" y="158" width="80" height="16" rx="8" fill="url(#lip)"/>
+  <path d="M362,166 H438" stroke="#0c5a30" stroke-width="2" opacity=".25"/>
+
+  <!-- 瓶盖 -->
+  <rect x="370" y="118" width="60" height="44" rx="10" fill="url(#cap)"/>
+  <rect x="380" y="126" width="40" height="30" rx="4" fill="none" stroke="#0d6c3a" stroke-width="2" opacity=".35"/>
+  <g stroke="#0d6c3a" stroke-width="1.8" opacity=".45">
+    <line x1="392" y1="128" x2="392" y2="154"/>
+    <line x1="408" y1="128" x2="408" y2="154"/>
+  </g>
+  <ellipse cx="383" cy="126" rx="15" ry="6" fill="#ffffff" opacity=".55"/>
+
+  <!-- 顶部装饰光点 -->
+  <path d="M130,164 l0,12 M124,170 l12,0" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="676" cy="170" r="4" fill="#ffffff" opacity=".9"/>
+</svg>
